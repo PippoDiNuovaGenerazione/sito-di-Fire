@@ -1,0 +1,193 @@
+:root {
+    --primary: #21aedf;
+    --bg-primary: #242a33;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #868ea3;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+        background: #262D37;
+}
+
+::-webkit-scrollbar-thumb {
+        background: #1070A8;
+        border-radius: 0;
+}
+
+body, 
+.nav__bar-language-dropdown-list,
+.nav__bar-currency-dropdown-list,
+.sidebar__navigation-dropdown-list {
+    background-color: var(--bg-primary);
+}
+.sidebar__navigation {
+    background: transparent;
+    box-shadow: unset;
+}
+.sidebar__navigation-list {
+    padding: 0;
+}
+.sidebar__navigation-link::before, .sidebar__navigation-link::after {
+    content: unset;
+}
+.sidebar__navigation-link .menu__item {
+    box-shadow: 0 0 5px #1e1e1e;
+}
+.sidebar__navigation-link .menu__item:hover {
+    box-shadow: unset;
+    margin-left: 0;
+}
+.sidebar__navigation-item {
+    margin-top: 20px;
+}
+.sidebar__navigation-item, .sidebar__donator-topdonor {
+    background-image: unset;
+    background-color: #2c333e;
+}
+.sidebar__navigation-item:hover .sidebar__navigation-item-text, 
+.sidebar__navigation-item:hover .sidebar__navigation-dropdown-icon {
+    color: #fff;
+    text-shadow: unset;
+}
+.main {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+header > div:first-child {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+header > div:first-child > .nav {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+header > .header {
+    padding-top: 65px;
+}
+
+.header {
+    height: unset;
+}
+.content {
+    background: transparent;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.content > .content-container {
+    -webkit-box-shadow: 0 0 5px #1e1e1e;
+    box-shadow: 0 0 5px #1e1e1e;
+    background-color: #2c333e;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.content-container a  {
+    border-bottom: 1px dashed rgba(255,255,255,0.06);
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: white;
+}
+.nav__bar {
+    background: unset;
+}
+
+.nav {
+    width: 100%;
+    background: #ffffff0f;
+    border-radius: 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.content__order-main-btn--times {
+    background-image: unset;
+    background: var(--primary);
+}
+
+.content__shop-card-question, .content__shop-card-btn {
+    color:  var(--primary);
+}
+
+.content__shop-card-btn, .content__coupon-btn, .content__coupon-btn:hover, .content__purchase-btn, .content__purchase-btn:hover, .content__gift-btn, .content__gift-btn:hover {
+    color: #fff;
+    background-image: unset;
+    background: var(--primary);
+    box-shadow: unset;
+}
+
+.content__shop-card-btn {
+    width: 80%;
+}
+
+.content__shop-card-question:hover, .content__shop-card-btn:hover {
+    box-shadow: unset;
+    cursor: pointer;
+    text-shadow: 0 4px 4px rgba(183, 66, 9, 0.15), 0 1px 0 #1783a7;
+}
+
+.featured {
+    box-shadow: 0 0px 0 0 #2d95b8, 0 10px 15px 0 rgb(23 131 167 / 28%)!important;
+}
+
+.footer {
+    margin-top: 0;
+    background: unset;
+    padding-bottom: 20px;
+}
+
+.footer__inc-title, .footer a {
+    color: var(--primary)!important;
+    background: unset;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+}
+
+.footer-line {
+    background: var(--primary)
+}
+
+button.orange {
+    box-shadow: unset;
+    text-shadow: unset;
+    color: #004d95;
+}
+
+.mobile {
+    background: #2c333e!important;
+}
+
+.content__shop-card, .modal-content {
+    background-color: var(--bg-primary);
+}
+
+.sidebar__donator {
+    height: unset;
+    background-color: #2c333e;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px #1e1e1e;
+    box-shadow: 0 0 5px #1e1e1e;
+}
+
+.sidebar__donator-topdonor {
+    border-radius: 10px;
+}
+
+.sidebar__navigation-dropdown-list li .sidebar__navigation-dropdown-link:hover::before {
+    background: var(--primary)!important;
+}
